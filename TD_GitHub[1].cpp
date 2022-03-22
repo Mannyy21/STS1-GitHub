@@ -32,5 +32,18 @@ bool estPair(int nb)
 	}
 }
 	
+	
+int sommeNombre(int nb)
+{
+  int resultat = 0;
+  int i ;
+  for (i=nb; i>=0; i--)
+  {
+    resultat = resultat + i ;
+  }
+  
+  return resultat;   
+}
+
 
 //Fonctions réalisées par l'étudiant 3 :
