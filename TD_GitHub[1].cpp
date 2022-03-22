@@ -5,13 +5,19 @@ bool estMajeur(int age)
 	{
 		return true ;
 	}
-	else if
+	else
 	{
 		return false ;
 	}
 }
 
-
+int exposant (int nbre, int exp)
+{
+  int resultat;
+  resultat = pow(nbre, exp);
+  return resultat;
+    
+}
 
 
 
