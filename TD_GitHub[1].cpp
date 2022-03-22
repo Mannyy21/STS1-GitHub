@@ -19,9 +19,14 @@ int exposant (int nbre, int exp)
     
 }
 
-
-
-
+float TVA(int prix)
+{
+  float resultat ;
+  resultat = prix * 1.196;
+  
+  return resultat;
+    
+}
 
 
 
