@@ -73,4 +73,13 @@ int sommeNombre(int nb)
 }
 
 
+float salaireNet(int salaire);
+{
+    float resultat;
+    resultat= salaire * (0.77);
+
+    return resultat;
+}
+
+
 //Fonctions réalisées par l'étudiant 3 :
