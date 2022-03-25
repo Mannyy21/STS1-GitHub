@@ -82,4 +82,20 @@ float salaireNet(int salaire);
 }
 
 
+int plusPetit(int a, int b, int c)
+{
+  if (a<b && a<c)
+  {
+      return a ;
+  }
+  if (b<a && b<c)
+  {
+      return b ;
+  }
+  else
+  {
+      return c ;
+  }
+}
+
 //Fonctions réalisées par l'étudiant 3 :
